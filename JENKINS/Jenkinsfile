@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                echo 'Siddharth Kandari'
+                echo '500107375'
+                echo 'Batch 6'
+            }
+        }
+    }
+}
